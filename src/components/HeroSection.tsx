@@ -9,7 +9,7 @@ const socials = [
   { icon: Mail, href: "mailto:kotagowtham3@gmail.com" },
 ];
 
-const roles = ["Cloud & Software Developer", "AWS Certified Developer", "Full Stack Enthusiast"];
+const roles = ["Cloud & Software Developer", "AWS Certified Developer", "Cloud Native Developer"];
 
 const useTypingEffect = (texts: string[], typingSpeed = 100, deletingSpeed = 50, pauseTime = 1500) => {
   const [displayText, setDisplayText] = useState("");
@@ -52,7 +52,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-muted-foreground text-lg mb-2">Hello, It's Me</p>
+          <p className="text-muted-foreground text-lg mb-2">Hello, I'm</p>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-extrabold mb-2">
             Kota Gowtham
           </h1>

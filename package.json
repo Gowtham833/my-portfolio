@@ -13,7 +13,10 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.2",
+    "@formspree/react": "^3.0.0",
     "@hookform/resolvers": "^3.10.0",
+    "@icons-pack/react-simple-icons": "^13.11.1",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
     "@radix-ui/react-aspect-ratio": "^1.1.7",
@@ -55,6 +58,7 @@
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.61.1",
+    "react-icons": "^5.6.0",
     "react-resizable-panels": "^2.1.9",
     "react-router-dom": "^6.30.1",
     "recharts": "^2.15.4",
@@ -67,6 +71,7 @@
   "devDependencies": {
     "@eslint/js": "^9.32.0",
     "@playwright/test": "^1.57.0",
+    "@svgr/plugin-jsx": "^8.1.0",
     "@tailwindcss/typography": "^0.5.16",
     "@testing-library/jest-dom": "^6.6.0",
     "@testing-library/react": "^16.0.0",

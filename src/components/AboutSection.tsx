@@ -26,9 +26,9 @@ const AboutSection = () => (
           </div>
           <div className="grid grid-cols-2 gap-4">
             {[
-              { label: "Projects", value: "5+" },
-              { label: "AWS Certified", value: "Yes" },
               { label: "Projects", value: "2+" },
+              { label: "AWS Certified", value: "Yes" },
+              { label: "Experience", value: "1 Year" },
               { label: "Languages", value: "English, Telugu" },
             ].map((item) => (
               <div key={item.label} className="gradient-border rounded-xl p-4 text-center">
